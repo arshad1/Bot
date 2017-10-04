@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> <%=title %></title>
+      <% stylesheet('stylesheets/bootstrap.min.css') -%>
+      <% stylesheet('stylesheets\\style.css') -%>
+
+    <%-stylesheets%>
+  </head>
+  <body>
+    <header>
+      <%-blocks.header%>
+    </header>
+    <section>
+      <%-body -%>
+    </section>
+    <footer>
+      <%-blocks.footer%>
+    </footer>
+    <%-scripts%>
+  </body>
+</html>
